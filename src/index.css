@@ -1,0 +1,235 @@
+
+/*Navbar css properties*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.navs a:hover{ 
+color:white;
+}
+
+.navs{
+     
+     font-size:1rem;
+     font-family: 'Jura', sans-serif;
+    }
+
+ul>li>a 
+{
+     color:skyBlue;
+     list-style-type: none;
+}
+
+.nav-item {
+  list-style-type: none;
+  display:inline-block;
+}
+
+/* Home CSS properties */
+.bgimage{
+  background-image: url("./Assets/Konkan 5.jpg");
+  height:900px;
+  width:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+.konkan{
+   font-family: 'Jura', sans-serif;
+   font-size:10rem;
+  }
+ .sft{
+   font-family: 'Krona One', sans-serif;
+ }
+.akr{
+  font-family: 'Jura', sans-serif;
+  word-spacing: 6px;
+  letter-spacing:2px;
+
+}
+  .Ranmanus{
+   font-family: 'Jura', sans-serif;
+   font-size:10rem;
+  }
+  .tour{
+  background-color:white;
+  font-family: 'Jura', sans-serif;
+  border:5px solid grey;
+  font-weight:bold;
+  color: black;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 30px;
+  margin-top:18rem;
+}
+
+  .tour:hover {
+  color: pink;
+}
+.siv{
+  width:100%;
+  height:70%;
+}
+.imagecenter{
+text-align: center;
+font-family: 'Jura', sans-serif;
+font-size:22px;
+padding-top:110px;
+word-spacing: 6px;
+letter-spacing:2px;
+}
+.margset{
+margin-left:50px;
+margin-right:50px;
+}
+.fopt{
+font-family: 'Jura', sans-serif;
+padding-top:100px; 
+word-spacing: 6px;
+}
+.badgecontainer{
+position: relative; 
+}
+
+  /*     timer css properties   --------------------------------------------------------------- */
+.mx-20{
+margin:10rem 0rem 10rem 0rem;
+}
+.timer{
+font-size:60px !important;
+font-weight:900 !important;
+color:#01294C !important;
+}
+.timerheading{
+ font-family: 'Jura', sans-serif; 
+ opacity:0.5;
+}
+.review{
+font-family: 'Krona One', sans-serif;
+
+}
+
+  /*   carousel   css properties   -------------------------------------------------------------- */
+.carou{
+padding:5rem 0rem 5rem 0rem;
+}
+
+ /*     footertopheader css properties   ---------------------------------------------------------*/
+.colorproperty{
+opacity:0.8;
+font-family: 'Jura', sans-serif;
+}
+.subscribe{
+display: flex;
+justify-content: space-between; 
+}
+
+ /*     footertop css properties   ------------------------------------------------------------- */
+
+.propertiesfoottop{
+color:white;
+ font-family: 'Jura', sans-serif; 
+}
+.propertiesfoot{
+color:white;
+ font-family: 'Jura', sans-serif; 
+ opacity:0.5;
+}
+.badge{
+position: absolute;
+bottom: 0px; /* position where you want it */
+left: 0px;
+font-family: 'Jura', sans-serif;
+font-size:15px;
+font-weight:bold;
+}
+.design{
+font-family: 'Jura', sans-serif;
+word-spacing: 3px;
+font-weight: normal;
+}
+.inline{
+display:inline;
+}
+.days{
+font-weight:900;
+font-family: 'Jura', sans-serif;
+}
+.rup{
+text-decoration: line-through;
+font-family: 'Jura', sans-serif;
+}
+.rups{
+font-family: 'Jura', sans-serif;
+font-size:20px;
+}
+.about{
+  background-color:#BBDEFB
+}
+.cards{
+  background-color:#E5B3B3
+}
+.para{
+  font-family: 'Jura', sans-serif;
+  font-size:20px;
+}
+.phs{
+  background-image: url("./Assets/Konkan 8.jpg"); 
+  z-index: -1;
+  height:700px;
+}
+.height{
+   height:700px;
+}
+.shift{
+  padding-top:290px;
+  font-family: 'Jura', sans-serif;
+  font-weight:bold;
+  font-size:20px;
+}
+
+/*Header css properties*/
+.phone{
+    font-size:15px; 
+    color:#fdfffc;
+    }
+.Header{
+     padding-top:30px;
+}
+.social{
+      margin: 0 10px 0 0;
+}
+
+.socialLink:hover{
+      background-color:#90e0ef
+}
+.login{
+     background-color:white !important ;
+}
+.signup{
+     background-color:white !important ;
+}
+
+/*service page properties*/
+.containerservice{
+background-image: url("./Assets/Konkan 4.jpg");
+  height:900px;
+  width:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*contact page properties*/
+.containerContact{
+background-image: url("./Assets/Konkan 3.jpg");
+  height:900px;
+  width:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
